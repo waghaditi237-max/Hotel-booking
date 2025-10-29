@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./page 2.css.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tripster – Book Your Stay</title>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f5f7fa;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      background-color: #fff;
+    }
+
+    header .logo {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #0071c2;
+    }
+
+    header .actions {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    header select,
+    header button {
+      border: none;
+      background: #0071c2;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    header select {
+      background: #fff;
+      color: #0071c2;
+      border: 1px solid #0071c2;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('https://www.fivestaralliance.com/files/fivestaralliance.com/term-images/503/peninsula-paris-2.jpeg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px 180px;
+      position: relative;
+      height: 400px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    /* Search Bar */
+    .search-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      background:white;
+      padding: 20px;
+      border-radius: 40px;
+      width: 80%;
+      max-width: 1000px;
+      margin: 0 auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1)
+    }
+
+    .search-box input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      flex: 1 1 180px;
+      min-width: 160px;
+    }
+
+    .search-btn {
+      background-color: #0071c2;
+      border: none;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .search-btn i {
+      color: white;
+      font-size: 1.2rem;
+    }
+
+    </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Booking<span style="color:#003580;">.com</span></div>
+    <div class="actions">
+      <select>
+        <option>EN</option>
+        <option>FR</option>
+        <option>DE</option>
+      </select>
+      <button onclick="window.location.href='./registration.html'">Sign up</button>
+      <button style="background:#003580;" onclick="window.location.href='./login_page.html'">Login</button>
+    </div>
+  </header>
+
+  <!-- Hero Section with Search Bar -->
+  <section class="hero">
+    <h1>Book Your Stay with Tripster</h1>
+    <p>1,480,086 rooms around the world are waiting for you</p>
+
+    <div class="search-box">
+      <input type="text" placeholder="Where are you going?" class="location" />
+      <input type="date" placeholder="Check-in (dd-mm-yyyy)" class="checkin" />
+      <input type="date" placeholder="Check-out (dd-mm-yyyy)" class="checkout" />
+      <input type="number" placeholder="Number of guests" class="guests" min="1" />
+      <button class="search-btn">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </div>
+  </section>
+<div class="blue-card">
+  <span class="tag">Popular</span>
+  <span class="tag">Top Rated</span>
+  <span class="tag">Pool Side</span>
+  <span class="tag">Sea Side</span>
+  <span class="tag">Low Price</span>
+</div>
+
+<section class="hotel-section">
+  <h2>Top Rated Hotels</h2>
+  <div class="hotel-grid">
+
+    <div class="hotel-card">
+      <img src="https://th.bing.com/th/id/R.1fde8b6079e19a20f127253546549034?rik=Ha%2faTNTsBCpxRg&riu=http%3a%2f%2fwww.cfmedia.vfmleonardo.com%2fimageRepo%2f6%2f0%2f96%2f134%2f608%2fmspjw-exterior-0023-hor-clsc_O.jpg&ehk=w%2fYWmL3JnZZomBqcV6N6kw%2fdxpeL2P%2fiiUh8keeLOW8%3d&risl=&pid=ImgRaw&r=0" alt="JW Marriott">
+      <div class="hotel-info">
+        <h3><a href="./page 3.html">JW Marriott</h3></a>
+        <p>⭐ 5.0 · 1,143+ reviews · Pune</p>
+      </div>
+      <i class="fa-regular fa-heart favorite-icon"></i>
+    </div>
+
+
+    <div class="hotel-card">
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/40/96/87/exterior.jpg?w=900&h=-1&s=1" alt="Novotel Kochi Infopark">
+      <div class="hotel-info">
+        <h3>Novotel Kochi Infopark</h3>
+        <p>⭐ 4.9 · 150+ reviews · Cochin</p>
+      </div>
+      <i class="fa-regular fa-heart favorite-icon"></i>
+    </div>
+
+
+    <div class="hotel-card">
+      <img src="https://th.bing.com/th/id/R.81b41ca770d6858c888aaac9eca33ff8?rik=HBMCeSD2u%2bB%2fAg&riu=http%3a%2f%2fpix10.agoda.net%2fhotelImages%2f113%2f1134834%2f1134834_15111019130037642157.jpg%3fs%3d1024x768&ehk=GIbKGZns957DfRbwe4%2bRNsiYfvZt0k201wG4EDmujL8%3d&risl=&pid=ImgRaw&r=0" alt="T24 Residency">
+      <div class="hotel-info">
+        <h3>T24 Residency</h3>
+        <p>⭐ 4.9 · 200+ reviews · Mumbai</p>
+      </div>
+      <i class="fa-regular fa-heart favorite-icon"></i>
+    </div>
+
+    <div class="hotel-card">
+      <img src="https://im.whatshot.in/img/2020/Dec/10-1607540880.jpg" alt="Leela Ambience Convention">
+      <div class="hotel-info">
+        <h3>Leela Ambience Convention</h3>
+        <p>⭐ 4.8 · 300+ reviews · Delhi</p>
+      </div>
+      <i class="fa-regular fa-heart favorite-icon"></i>
+    </div>
+
+    </div>
+    </section>
+    <br><br>
+    <footer class="footer">
+  <div class="footer-text">
+    <p>Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.</p>
+    <p>Copyright © 1996–2025 Booking.com™. All rights reserved.</p>
+  </div>
+  <div class="footer-branding">
+    <span class="logo">Booking<span style="color:#0071c2;">.com</span></span>
+    <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
