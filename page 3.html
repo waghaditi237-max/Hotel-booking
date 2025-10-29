@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./page  3.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tripster – Book Your Stay</title>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f5f7fa;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      background-color: #fff;
+    }
+
+    header .logo {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #0071c2;
+    }
+
+    header .actions {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    header select,
+    header button {
+      border: none;
+      background: #0071c2;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    header select {
+      background: #fff;
+      color: #0071c2;
+      border: 1px solid #0071c2;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('https://livingnomads.com/wp-content/uploads/2016/05/Skyline-Hanoi-Vietnam-2-696x467.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px 180px;
+      position: relative;
+      height: 400px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    /* Search Bar */
+    .search-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      background:white;
+      padding: 20px;
+      border-radius: 40px;
+      width: 80%;
+      max-width: 1000px;
+      margin: 0 auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1)
+    }
+
+    .search-box input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      flex: 1 1 180px;
+      min-width: 160px;
+    }
+
+    .search-btn {
+      background-color: #0071c2;
+      border: none;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .search-btn i {
+      color: white;
+      font-size: 1.2rem;
+    }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+  <header>
+    <div class="logo">Booking<span style="color:#003580;">.com</span></div>
+    <div class="actions">
+      <select>
+        <option>EN</option>
+        <option>FR</option>
+        <option>DE</option>
+      </select>
+      <button onclick="window.location.href='registration.html'">Sign up</button>
+      <button style="background:#003580;" onclick="window.location.href='./login_page.html'">Login</button>
+    </div>
+  </header>
+
+  <!-- Hero Section with Search Bar -->
+  <section class="hero">
+    <h1>Book Your Stay with Tripster</h1>
+    <p>1,480,086 rooms around the world are waiting for you</p>
+
+    <div class="search-box">
+      <input type="text" placeholder="Where are you going?" class="location" />
+      <input type="date" placeholder="Check-in (dd-mm-yyyy)" class="checkin" />
+      <input type="date" placeholder="Check-out (dd-mm-yyyy)" class="checkout"/>
+      <input type="number" placeholder="Number of guests" class="guests" min="1" />
+      <button class="search-btn">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </div>
+  </section>
+<!--blue banner-->
+  <div class="blue-banner">
+  <span class="tag">Popular</span>
+  <span class="tag">Top Rated</span>
+  <span class="tag">Pool Side</span>
+  <span class="tag">Sea Side</span>
+  <span class="tag">Low Price</span>
+</div>
+
+<div class="hotel">
+  <span class="text" ><h1><b>JW Marriott Hotel Pune</h1></b></span>
+</div>
+<div class="icons">
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+</div>
+<div class="image">
+  <img src="https://cdn0.weddingwire.in/vendor/7085/3_2/1280/jpg/hyatt-regency-lucknow-3_15_137085-1567668832.jpeg" width="520px" height="450px">
+</div>
+<div class="jw">Starting at Rs-190000</div>
+<div class="info"><pre><b>Property highlights</b>
+
+<i class="fa-solid fa-location-dot"></i> Top Location: Highly rated by recent guests (9.2)
+
+   Great Food: Meals here are highly recommended!
+
+<i class="fa-solid fa-bed"></i>  a great night's sleep This hotel was highly-rated for its very comfy beds.
+
+<b>Breakfast Info</b>
+
+Continental, Italian, Full English/Irish, Vegetarian, Gluten-free, Asian, American, Buffet,
+Breakfast to go
+
+<i class="fa-solid fa-square-parking"></i> Free parking available at the hotel</pre></div>
+<br>
+<div class="read_more"><button>Read More</button></div>
+<br><br>
+  <!--images-->
+<div class="head"><h1>Best room just for you</h1></div>
+<br><br>
+<div class="gallery">
+
+    <div class="room">
+      <img src="https://tse1.explicit.bing.net/th/id/OIP.VS6rwf7kS5SfDZdYSPAUoAHaE8?w=1536&h=1024&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Room 4">
+      <span class="price">Rs 18000/night</span>
+    </div>
+    
+    <div class="room">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.YZd-I6SfklANMiZgvx5GnwHaFj?w=800&h=600&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Room 2">
+      <span class="price">Rs 26000/night</span>
+    </div>
+    <div class="room">
+      <img src="https://cache.marriott.com/marriottassets/marriott/LASJW/lasjw-suite-0084-hor-clsc.jpg?interpolation=progressive-bilinear&" alt="Room 3">
+      <span class="price">Rs 20000/night</span>
+    </div>
+    <div class="room">
+      <img src="https://tse1.explicit.bing.net/th/id/OIP.VS6rwf7kS5SfDZdYSPAUoAHaE8?w=1536&h=1024&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Room 4">
+      <span class="price">Rs 18000/night</span>
+    </div>
+
+    <div class="room">
+      <img src="https://tse1.explicit.bing.net/th/id/OIP.VS6rwf7kS5SfDZdYSPAUoAHaE8?w=1536&h=1024&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Room 4">
+      <span class="price">Rs 18000/night</span>
+    </div>
+
+    <div class="room">
+      <img src="https://tse1.explicit.bing.net/th/id/OIP.VS6rwf7kS5SfDZdYSPAUoAHaE8?w=1536&h=1024&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Room 4">
+      <span class="price">Rs 18000/night</span>
+    </div>
+
+  </div>
+  <br>
+  <style>
+  .book-now {
+    display: block;
+    margin: 0 auto;
+  }
+</style>
+
+<button class="book-now">Book Now</button>
+<br>
+  <footer class="footer">
+  <div class="footer-text">
+    <p>Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.</p>
+    <p>Copyright © 1996–2025 Booking.com™. All rights reserved.</p>
+  </div>
+  <div class="footer-branding">
+    <span class="logo">Booking<span style="color:#0071c2;">.com</span></span>
+    <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+  </div>
+</footer>
