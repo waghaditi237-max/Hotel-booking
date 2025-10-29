@@ -1,0 +1,77 @@
+.trending-section {
+  background-color: #003580;
+  padding: 40px 60px;
+  color: white;
+  text-align: center;
+}
+
+.trending-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+}
+
+.trending-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.destination-card {
+  background: white;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  color: #003580;
+}
+
+.destination-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.destination-card p {
+  padding: 10px;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.footer {
+  background-color: #c8c8c8;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  width: 100%;
+  height: 200px;
+}
+
+.footer-text p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.footer-branding {
+  margin-top: 20px;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #003580;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  color: #1e1e1e;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0071c2;
+}
